@@ -38,7 +38,7 @@ console.log('..................................................................'
 //Hasta ahora includes() solo sirve para verificar si determinado valor se encuentra dentro de una cadena
 
 //Es ahi donde entra Slice() en caso de que quiera extraer una palabra o fragmento en especifico de una oracion. PD: slice() devuelve una nueva cadena NO modifica la original.
-//silce() toma 2 parametros la posicion de inico y la posicion final, la poscion final es opcional, si no se la proporcionas buscara hasta el final de la cadena. PD: el final especificado no se incluye ej: slice(0,5) la posicion numero 5 no se muestra en consola en cambio la posicion 6 si lo hace
+//silce() toma 2 parametros la posicion de inico y la posicion final, la poscion final es opcional, si no se la proporcionas buscara hasta el final de la cadena. PD: el final especificado no se incluye ej: slice(0,5) la posicion numero 5 no se cuenta
 
 //sintaxis: myVar.slice(Inicio, Final)
 
