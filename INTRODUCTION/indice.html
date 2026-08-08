@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            text-align: center;
+        }
+
+        button {
+            border-radius: 4px;
+            padding: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>hello</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea aliquam nisi aut ratione vel aliquid nulla totam tenetur dolores minima earum nemo voluptate odit perspiciatis, dignissimos ad beatae illo.</p>
+    <button>BUTTON CLICKED</button>
+
+    <script>
+        let btn = document.querySelector('button')
+        let bdy = document.querySelector('body')
+        let newElement = document.createElement('h1')
+
+        
+
+        btn.addEventListener("click", () => {
+            alert('Low Cortisol')
+        });
+
+        bdy.addEventListener("mouseenter", ()=> {
+            btn.style.backgroundColor = "gray"
+            bdy.style.backgroundColor = "gray"
+            newElement.textContent = "Low cortisol"
+            newElement.style.textAlign = "center"
+            newElement.style.fontSize = "40px"
+            bdy.appendChild(newElement)
+        })
+
+        bdy.addEventListener("mouseleave", ()=> {
+            btn.style.backgroundColor = "red"
+            bdy.style.backgroundColor = "white"
+            newElement.remove()
+        })
+
+    </script>
+
+</body>
+</html>
