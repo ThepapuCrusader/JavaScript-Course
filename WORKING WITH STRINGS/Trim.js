@@ -4,7 +4,7 @@
 
 
 //trim();
-//la forma mas comun de hacerlo es mediante trim()
+//la forma mas comun de hacerlo es mediante trim(). PD: trim() solo elimina los espacios al inicio y al final de la cadena, los espacios intermedios son excluidos
 
 let saludo = "  Hello World  ";
 console.log(saludo); //devuelve "  Hello World  "
